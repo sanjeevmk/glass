@@ -1,0 +1,22 @@
+{
+	"scaperoot":"../Data/arap_aug/",
+	"sampleDir":"../samples_outputs/faust_arap2_samples/",
+	"reconDir":"../reconstruction/faust_arap2/",
+	"hmcsampleDir":"../samples_outputs/faust_arap2_samples_hmc/",
+	"modelPath": "../models/faust_arap2",
+	"numPoints": 1000,
+	"bottleneck": 1024,
+	"outputDir": "../final_outputs/faust_arap2/interpolate/",
+	"batch":4,
+	"alpha":1.0,
+	"nComp":4,
+	"dims":3,
+	"energy":"arap",
+	"method":"VanillaHMC",
+	"train":true,
+	"plotfile":"../plot_outputs/planar_arapVanilla_fc_sampled_scores.txt",
+	"resetWeights":"../models/faustarapreset",
+	"plotTitle":"../final_outputs/bardense_rounds_outputs/planar_bar_arap.png",
+	"titleop":"Optimization",
+	"titlenuts":"HMC"
+}

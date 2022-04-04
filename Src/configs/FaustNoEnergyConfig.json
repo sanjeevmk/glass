@@ -1,0 +1,22 @@
+{
+	"scaperoot":"../Data/faust/",
+	"sampleDir":"../samples_outputs/faust_noenergy_samples/",
+	"reconDir":"../reconstruction/faust_noenergy/",
+	"hmcsampleDir":"../samples_outputs/faust_noenergy_samples_hmc/",
+	"modelPath": "../models/faust_noenergy",
+	"numPoints": 1000,
+	"bottleneck": 32,
+	"outputDir": "../final_outputs/faust_noenergy/interpolate/",
+	"batch":4,
+	"alpha":1.0,
+	"nComp":4,
+	"dims":3,
+	"energy":"NoEnergy",
+	"method":"VanillaHMC",
+	"train":true,
+	"plotfile":"../plot_outputs/planar_arapVanilla_fc_sampled_scores.txt",
+	"resetWeights":"../models/faustnoenergyreset",
+	"plotTitle":"../final_outputs/bardense_rounds_outputs/planar_bar_noenergy.png",
+	"titleop":"Optimization",
+	"titlenuts":"HMC"
+}

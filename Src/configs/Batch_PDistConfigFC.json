@@ -1,0 +1,21 @@
+{
+	"scaperoot":"../Data/rect3d/",
+	"sampleDir":"../samples_outputs/batch_bar3d_rotate/",
+	"hmcsampleDir":"../samples_outputs/batch_bar3d_rotate_hmc/",
+	"modelPath": "../models/Batch_Bar3D_RotateVanillaFC",
+	"numPoints": 16,
+	"bottleneck": 4,
+	"outputDir": "../final_outputs/batch_bar3d_rounds_outputs/rotateVanillaFC/",
+	"batch":128,
+	"alpha":1.0,
+	"nComp":4,
+	"dims":3,
+	"energy":"pdist",
+	"method":"VanillaHMC",
+	"train":true,
+	"plotfile":"../plot_outputs/planar_rotateVanilla_fc_sampled_scores.txt",
+	"resetWeights":"../models/batchplanarrotateVanillafcreset",
+	"plotTitle":"../final_outputs/bardense_rounds_outputs/planar_bar_rotate.png",
+	"titleop":"Optimization",
+	"titlenuts":"HMC"
+}

@@ -1,0 +1,22 @@
+{
+	"scaperoot":"../Data/rectrotate2d/",
+	"sampleDir":"../samples_outputs/bar2d_rotate_optim_samples/",
+	"modelPath": "../models/Bar2D_RotateOptim",
+	"numPoints": 16,
+	"bottleneck": 4,
+	"outputDir": "../final_outputs/bar2d_rounds_outputs/rotateOptim/",
+	"batch":4,
+	"alpha":1.0,
+	"nComp":4,
+	"dims":2,
+	"energy":"NoEnergy",
+	"method":"NoEnergy",
+	"plotfile":"../plot_outputs/planar_rotateOptim_sampled_scores.txt",
+	"resetWeights":"../models/planarrotateOptimreset",
+	"titleop":"Optimization",
+	"titlenuts":"HMC",
+	"OpPlotFile":"../plot_outputs/planar_rotateOptim_sampled_scores.txt",
+	"OpiPlotFile":"../plot_outputs/planar_rotateOptimInput_sampled_scores.txt",
+	"HmcPlotFile":"../plot_outputs/planar_rotateNuts_sampled_scores.txt",
+	"plotTitle":"../final_outputs/bar2d_rounds_outputs/planar_bar_rotate.png"
+}

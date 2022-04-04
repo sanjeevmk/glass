@@ -1,0 +1,21 @@
+{
+	"scaperoot":"../Data/rectrotate2d/",
+	"sampleDir":"../samples_outputs/bar2d_rotate_vanilla_nore_samples/",
+	"hmcsampleDir":"../samples_outputs/bar2d_rotate_vanilla_nore_samples_hmc/",
+	"modelPath": "../models/Bar2D_RotateVanillaNoRe",
+	"numPoints": 16,
+	"bottleneck": 4,
+	"outputDir": "../final_outputs/bar2d_rounds_outputs/rotateVanillaNoRe/",
+	"batch":128,
+	"alpha":1.0,
+	"nComp":4,
+	"dims":2,
+	"energy":"pdist",
+	"method":"VanillaHMC",
+	"train":true,
+	"plotfile":"../plot_outputs/planar_rotateVanilla_nore_sampled_scores.txt",
+	"resetWeights":"../models/planarrotateVanillanorereset",
+	"plotTitle":"../final_outputs/bar2d_rounds_outputs/planar_bar_rotate.png",
+	"titleop":"Optimization",
+	"titlenuts":"HMC"
+}
